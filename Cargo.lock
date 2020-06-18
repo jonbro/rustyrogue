@@ -1089,6 +1089,7 @@ name = "rustyrogue"
 version = "0.1.0"
 dependencies = [
  "rltk 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "wasm-bindgen 0.2.63 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

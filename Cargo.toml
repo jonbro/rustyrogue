@@ -5,6 +5,9 @@ authors = ["Jonathan Brodsky <jonbro@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 rltk="0.8.1"
+wasm-bindgen = "0.2.45"
