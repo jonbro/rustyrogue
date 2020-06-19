@@ -10,4 +10,11 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 rltk="0.8.1"
+specs = { version = "0.16.1" }
+specs-derive = "0.4.1"
+nalgebra = "0.21.1"
 wasm-bindgen = "0.2.45"
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
+
